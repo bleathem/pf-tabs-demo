@@ -49,6 +49,7 @@ gulp.task('fonts', function(){
 gulp.task('copy', function () {
   return gulp.src([
     'node_modules/webcomponents.js/webcomponents.js',
+    'node_modules/es5-shim/es5-shim.min.js',
     'node_modules/es6-shim/es6-shim.min.js'
   ])
     .pipe(gulp.dest('dist'));
