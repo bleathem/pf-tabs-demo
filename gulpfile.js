@@ -48,7 +48,8 @@ gulp.task('fonts', function(){
 
 gulp.task('copy', function () {
   return gulp.src([
-    'node_modules/webcomponents.js/webcomponents.js'
+    'node_modules/webcomponents.js/webcomponents.js',
+    'node_modules/harmony-collections/harmony-collections.min.js'
   ])
     .pipe(gulp.dest('dist'));
 });
