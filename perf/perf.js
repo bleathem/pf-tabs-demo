@@ -6,6 +6,7 @@
 
     var tab1 = document.createElement('pf-tab');
     tab1.setAttribute('title', 'Tab 1');
+    tab1.setAttribute('active', 'true');
     tabs.appendChild(tab1);
 
     var p1 = document.createElement('p');
