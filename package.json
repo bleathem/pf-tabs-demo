@@ -25,8 +25,7 @@
     "gulp-watch": "^4.3.9"
   },
   "dependencies": {
-    "es5-shim": "^4.5.9",
-    "es6-shim": "^0.35.1",
+    "harmony-collections": "^0.3.8",
     "patternfly": "^3.10.0",
     "webcomponents.js": "^0.7.22"
   }
