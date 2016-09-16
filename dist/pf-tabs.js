@@ -256,7 +256,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
         var pfTab = this.tabMap.get(tab);
         var naturalDisplay = this.displayMap.get(pfTab);
         pfTab.style.display = naturalDisplay;
-        pfTab.setAttribute('active', '');
+        // pfTab.setAttribute('active','');
       }
     }, {
       key: 'makeInactive',

@@ -212,7 +212,7 @@
       var pfTab = this.tabMap.get(tab);
       var naturalDisplay = this.displayMap.get(pfTab);
       pfTab.style.display = naturalDisplay;
-      pfTab.setAttribute('active','');
+      // pfTab.setAttribute('active','');
     }
 
     makeInactive(tab) {
